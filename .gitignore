@@ -1,0 +1,22 @@
+
+# Dependencias de Node.js
+node_modules/
+**/node_modules/
+
+# Variables privadas y credenciales
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos generados
+dist/
+**/dist/
+coverage/
